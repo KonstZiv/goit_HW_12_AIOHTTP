@@ -1,0 +1,11 @@
+{% set title = "Main" %}
+
+{% if scopes %}
+    <ul>
+    {% for scope in scopes %}
+        <li>{{scope.id}} : {{scope.name}} : {{scope.url}}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+<p>All resource</p>
+{% endif %}

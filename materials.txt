@@ -1,0 +1,14 @@
+https://pythonru.com/biblioteki/parsing-na-python-s-beautiful-soup
+
+https://code.tutsplus.com/ru/tutorials/http-headers-for-dummies--net-8039
+
+
+https://habr.com/ru/post/488720/
+
+
+Отработать в первую очередь:
+1) https://habr.com/ru/company/kts/blog/560058/
+2) https://habr.com/ru/company/kts/blog/579214/
+
+Изучить!!!:
+http://onreader.mdl.ru/UsingAsyncioPython3/content/index.html#ToC

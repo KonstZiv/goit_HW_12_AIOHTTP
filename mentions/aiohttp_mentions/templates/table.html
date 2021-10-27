@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="="en">
+    <head>
+        <title>
+            Table
+        </title>
+    </head>
+    <body style="color:rgb(1, 80, 1);">
+        <div>
+            <h2>Текущий запрос:</h2>
+        </div>
+        <hr>
+         <table>
+             {% if table_data %}
+             <thead>
+                 <tr>
+                    <th>Resource</th>
+                    {% for scope in table_data['Glavcom, front page'] %}
+                        <th>{{scope}}</th>
+                    {% endfor %}
+                    
+                 </tr>
+             </thead>
+             <tbody>
+                {% for resource in table_data %}
+                 <tr>
+                     <td>{{resource}}</td>
+
+                     {% for scope in table_data[resource] %}
+                        <td style="text-align:center;">{{table_data[resource][scope]}}</td>
+                     {% endfor %}
+                    
+                    
+                 </tr>
+                 {% endfor %}
+             </tbody>
+             {% endif %}
+         </table>
+         <hr>
+    </body>
+</html>
